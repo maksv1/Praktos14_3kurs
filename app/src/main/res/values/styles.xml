@@ -1,0 +1,29 @@
+<!-- res/values/styles.xml -->
+<resources>
+
+    <!-- Стиль для кнопок на игровом поле -->
+    <style name="TicTacToeButton">
+        <item name="android:layout_width">100dp</item>
+        <item name="android:layout_height">100dp</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <!-- Основная тема приложения -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Цвета темы -->
+        <item name="colorPrimary">#6200EE</item>
+        <item name="colorPrimaryDark">#3700B3</item>
+        <item name="colorAccent">#03DAC5</item>
+    </style>
+
+    <!-- Темная тема -->
+    <style name="AppTheme.Dark" parent="Theme.AppCompat">
+        <item name="colorPrimary">#121212</item>
+        <item name="colorPrimaryDark">#000000</item>
+        <item name="colorAccent">#BB86FC</item>
+        <item name="android:background">#303030</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+</resources>
